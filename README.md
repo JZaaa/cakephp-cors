@@ -10,7 +10,7 @@ A CakePHP (4+) plugin for activate cors domain in your application with [Middlew
 
 ## Requirements
 
-- PHP version 7.2 or higher
+- PHP version 7.4 or higher
 - CakePhp 4.0 or higher
 
 ## Installation
@@ -20,7 +20,7 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer require rabp99/cakephp-cors
+composer require jzaaa/cakephp-cors
 ```
 
 ## Quick Start

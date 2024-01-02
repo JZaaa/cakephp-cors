@@ -1,0 +1,24 @@
+{
+    "name": "jzaaa/cakephp-cors",
+    "description": "A CakePHP 5 plugin for activate cors domain in your application",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "cakephp/cakephp": "^5.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cors\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cors\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
